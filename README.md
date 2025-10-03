@@ -1,13 +1,10 @@
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1-X-AEQALq_NXrq2kZq3-NeLVBsbvzJd7" alt="Dibcode Data Augmentation Logo" width="600"/>
+  <img src="https://drive.google.com/uc?id=1-X-AEQALq_NXrq2kZq3-NeLVBsbvzJd7" alt="Dibcode Data Augmentation Logo" width="250"/>
 </p>
-
-# dibcode-data-augmentation
-Open-source tool to generate 20+ augmented images per dataset image.
 
 # Dibcode Data Augmentation
 
-A Python library for automated image data augmentation to expand your datasets. Generate multiple variations of each image using flips, rotations, and transformations.
+A Python library for automated image data augmentation to generate 20+ augmented images per dataset image. Generate multiple variations of each image using flips, rotations, and transformations.
 
 ## Features
 
