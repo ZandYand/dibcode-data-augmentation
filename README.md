@@ -19,28 +19,43 @@ A Python library for automated image data augmentation to generate 20+ augmented
 
 1. Clone the repository:
 
+```bash
 git clone https://github.com/yourusername/dibcode-data-augmentation.git
 cd dibcode-data-augmentation
+```
 
 2. Create a virtual environment:
 
+```bash
 python -m venv venv
+```
 
-## Windows:
+### Windows:
+
+```bash
 venv\Scripts\activate
-## Mac/Linux:
+```
+
+### Mac/Linux:
+
+```bash
 source venv/bin/activate
+```
 
 3. Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 ## Quick Start
 
 ### Basic Usage
 
+```python
 from src.augmentation import augment_images
 augment_images(input_dir="./images", output_dir="./augmented")
+```
 
 ## Transformations
 
@@ -79,10 +94,13 @@ dibcode-data-augmentation/
 1. Put your images in the `images/` folder
 2. Run the script: python run.py 
 
+```bash
 (test_env) PS C:\ .. \dibcode-data-augmentation> python run.py
+```
 
 Example output:
 
+```
 Found 3 images. Starting augmentation...
 ✓ Processed: image1.jpg (7 augmented images created)
 ✓ Processed: image2.jpg (7 augmented images created)
@@ -90,6 +108,7 @@ Found 3 images. Starting augmentation...
 
 Completed! Processed: 3, Augmented: 21, Failed: 0
 Augmented images saved to: ./augmented
+```
 
 ## Requirements
 
