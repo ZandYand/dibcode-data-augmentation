@@ -117,13 +117,81 @@ Augmented images saved to: ./augmented
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Thank you for your interest in contributing! Follow these steps to submit your changes.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Prerequisites
+- Install [GitHub Desktop](https://desktop.github.com/)
+- Create a free [GitHub account](https://github.com/join) if you don't have one
+
+### Step-by-Step Guide for Contributing
+
+#### 1. Fork the Repository
+1. Go to the main repository page on GitHub
+2. Click the **"Fork"** button in the top-right corner
+3. GitHub will create a copy of the repository in your own account
+
+#### 2. Clone Your Fork Using GitHub Desktop
+1. Open **GitHub Desktop**
+2. Go to **File** → **Clone Repository**
+3. Click on the **GitHub.com** tab
+4. Find your forked repository in the list (it will be under your username)
+5. Choose where to save it on your computer
+6. Click **Clone**
+
+#### 3. Create a New Branch
+1. In GitHub Desktop, click on **Current Branch** (shows "main")
+2. Click **New Branch**
+3. Give your branch a descriptive name (e.g., `add-new-feature` or `fix-bug-123`)
+4. Click **Create Branch**
+
+#### 4. Make Your Changes
+1. Open the project folder on your computer
+2. Make your changes using your preferred code editor
+3. Save your files
+
+#### 5. Commit Your Changes
+1. Go back to **GitHub Desktop**
+2. You'll see all your changed files listed on the left
+3. Review the changes (green = added, red = removed)
+4. Write a **commit message** describing what you changed:
+   - Summary (required): Brief description (e.g., "Add data augmentation for images")
+   - Description (optional): More details if needed
+5. Click **Commit to [your-branch-name]**
+
+#### 6. Push Your Branch to GitHub
+1. Click **Publish branch** (if it's your first push)
+   - OR click **Push origin** if you've already published it
+2. This uploads your changes to your fork on GitHub
+
+#### 7. Create a Pull Request
+1. GitHub Desktop will show a button: **Create Pull Request**
+   - OR go to your fork on GitHub.com in your web browser
+2. Click **Create Pull Request**
+3. You'll see a form with:
+   - **Title**: Describe your changes briefly
+   - **Description**: Explain what you did and why
+4. Click **Create Pull Request**
+
+#### 8. Wait for Review
+The project maintainer will review your changes. They may:
+- ✅ Approve and merge your changes
+- 💬 Ask questions or request modifications
+- ❌ Close the PR if it doesn't fit the project
+
+#### 9. If Changes Are Requested
+1. Make the requested changes in your local files
+2. Save the files
+3. Go back to **GitHub Desktop**
+4. Commit the new changes (repeat step 5)
+5. Push to GitHub (repeat step 6)
+6. The Pull Request will automatically update!
+
+### Important Notes
+- ⚠️ **Always create a new branch** - never work directly on the `main` branch
+- 🔄 **One branch per feature** - create separate branches and PRs for unrelated changes
+- 📝 **Write clear commit messages** - help others understand what you changed
+
+Thank you for contributing! 🎉
 
 ## License
 
