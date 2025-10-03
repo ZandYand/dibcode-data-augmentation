@@ -26,10 +26,9 @@ cd dibcode-data-augmentation
 
 python -m venv venv
 
-# Activate it:
-# Windows:
+## Windows:
 venv\Scripts\activate
-# Mac/Linux:
+## Mac/Linux:
 source venv/bin/activate
 
 3. Install dependencies:
@@ -47,6 +46,7 @@ augment_images(input_dir="./images", output_dir="./augmented")
 
 The library applies these transformations to each image:
 
+```
 | Transformation | Description |
 |---------------|-------------|
 | FLIP_LEFT_RIGHT | Mirror horizontally |
@@ -56,11 +56,13 @@ The library applies these transformations to each image:
 | ROTATE_270 | Rotate 270° clockwise |
 | TRANSPOSE | Flip over main diagonal |
 | TRANSVERSE | Flip over anti-diagonal |
+```
 
 Each input image generates **7 augmented versions** (one per transformation).
 
 ## Project Structure
 
+```
 dibcode-data-augmentation/
 ├── images/
 ├── src/
@@ -70,6 +72,7 @@ dibcode-data-augmentation/
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
 └── LICENSE                    # MIT License
+```
 
 ## Usage Example
 
