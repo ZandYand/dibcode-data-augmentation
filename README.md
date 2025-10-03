@@ -153,7 +153,6 @@ If you use this project, please give credit by linking back to this repository.
 - [ ] Speckle noise
 
 ### Phase 3: Geometric Transformations (Medium difficulty)
-- [ ] Random crops (multiple per image)
 - [ ] Scaling (zoom in/out)
 - [ ] Shearing transformations
 - [ ] Elastic deformation
