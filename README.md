@@ -132,7 +132,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Credits
 
 Created by Zandor Y. Sanchez Agreda
-Dibcode 2025
 
 Open Source Developers:
 
@@ -173,5 +172,7 @@ If you use this project, please give credit by linking back to this repository.
 If you encounter any issues or have questions, please open an issue on GitHub.
 
 ---
+
+© 2025 Dibcode
 
 **Star ⭐ this repo if you find it useful!**
